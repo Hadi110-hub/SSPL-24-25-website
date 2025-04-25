@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Score Entry</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="container mx-auto p-6">
+    <h1 class="text-2xl font-bold mb-4">SSPL Match Entry Form</h1>
+
+    <label for="player-select" class="block mb-2 font-semibold">Select Player:</label>
+    <select id="player-select" class="p-2 border rounded w-full mb-6"></select>
+
+    <div id="match-form" class="hidden">
+      <table class="table-auto w-full bg-white shadow rounded-lg">
+        <thead class="bg-blue-200">
+          <tr>
+            <th class="p-2">Match</th>
+            <th class="p-2">Runs</th>
+            <th class="p-2">Not Out</th>
+            <th class="p-2">Dismissal</th>
+            <th class="p-2">DNB</th>
+            <th class="p-2">Wickets</th>
+            <th class="p-2">Overs</th>
+            <th class="p-2">Runs Conceded</th>
+          </tr>
+        </thead>
+        <tbody id="match-rows"></tbody>
+      </table>
+      <button onclick="downloadJSON()" class="mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Download JSON</button>
+    </div>
+  </div>
+
+  <script>
+    const players = [
+      "Baquer Rashti", "Hassan Baig", "Faheem mohd", "Mir Qayam Ali", "Mujtaba Abidi",
+      "Raza Akhtari", "Asif Naqvi", "Mujju", "Syed Murtuza", "Akbar noorani",
+      "Jawad", "Arshad Mirza (W/C)", "Rehan Razvi", "Askari Agha", "Saif",
+      "Hashim Raza", "Hasnain moosvi", "Mohd Kasim", "Mir Zain Ali", "Abid Baquri",
+      "Iqbal", "Qayam moosvi (W/C)", "Shabber", "Musa hadi", "Tauseef", "Ali Biag"
+    ];
+
+    const matchCount = 15;
+    const playerSelect = document.getElementById("player-select");
+    const matchRows = document.getElementById("match-rows");
+    const matchForm = document.getElementById("match-form");
+
+    players.forEach(name => {
+      const option = document.createElement("option");
+      option.value = name;
+      option.textContent = name;
+      playerSelect.appendChild(option);
+    });
+
+    playerSelect.addEventListener("change", () => {
+      matchForm.classList.remove("hidden");
+      matchRows.innerHTML = "";
+      for (let i = 1; i <= matchCount; i++) {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td class="p-2">Match ${i}</td>
+          <td class="p-2"><input type="number" class="p-1 border w-full" data-field="runs"></td>
+          <td class="p-2 text-center"><input type="checkbox" data-field="not_out"></td>
+          <td class="p-2">
+            <select data-field="dismissal" class="p-1 border w-full">
+              <option value="">--</option>
+              <option value="bowled">Bowled</option>
+              <option value="caught">Caught</option>
+              <option value="runout">Run Out</option>
+              <option value="lbw">LBW</option>
+              <option value="stumped">Stumped</option>
+            </select>
+          </td>
+          <td class="p-2 text-center"><input type="checkbox" data-field="dnb" onchange="toggleRow(this)"></td>
+          <td class="p-2"><input type="number" class="p-1 border w-full" data-field="wickets"></td>
+          <td class="p-2"><input type="number" class="p-1 border w-full" step="0.1" data-field="overs"></td>
+          <td class="p-2"><input type="number" class="p-1 border w-full" data-field="runs_conceded"></td>
+        `;
+        matchRows.appendChild(row);
+      }
+    });
+
+    function toggleRow(checkbox) {
+      const row = checkbox.closest("tr");
+      const inputs = row.querySelectorAll("input:not([data-field='dnb']), select");
+      inputs.forEach(input => {
+        input.disabled = checkbox.checked;
+        if (checkbox.checked && input.tagName === "INPUT") input.value = "";
+      });
+    }
+
+    function downloadJSON() {
+      const rows = matchRows.querySelectorAll("tr");
+      const data = [];
+      rows.forEach((row, index) => {
+        const dnb = row.querySelector("input[data-field='dnb']").checked;
+        if (dnb) return; // skip DNB
+        const match = {
+          match_id: index + 1,
+          runs: parseInt(row.querySelector("input[data-field='runs']").value || 0),
+          not_out: row.querySelector("input[data-field='not_out']").checked,
+          dismissal: row.querySelector("select[data-field='dismissal']").value,
+          wickets: parseInt(row.querySelector("input[data-field='wickets']").value || 0),
+          overs: parseFloat(row.querySelector("input[data-field='overs']").value || 0),
+          runs_conceded: parseInt(row.querySelector("input[data-field='runs_conceded']").value || 0)
+        };
+        data.push(match);
+      });
+
+      const playerData = {
+        name: playerSelect.value,
+        slug: playerSelect.value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""),
+        role: "All-rounder",
+        team: "SSPL",
+        matches: data
+      };
+
+      const blob = new Blob([JSON.stringify(playerData, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `${playerData.slug}.json`;
+      link.click();
+    }
+  </script>
+</body>
+</html>

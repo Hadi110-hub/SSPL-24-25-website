@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-700 text-white shadow p-4 mb-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">SSPL Match Summary</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="text-white hover:underline">Home</a>
+        <a href="matches.html" class="text-white hover:underline">Matches</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4">
+    <div class="bg-white p-6 rounded-xl shadow">
+      <h2 id="match-title" class="text-2xl font-bold mb-2"></h2>
+      <p id="match-meta" class="text-gray-600 mb-2"></p>
+      <p id="match-score" class="text-xl font-semibold text-gray-800 mb-4"></p>
+      <p id="match-result" class="text-green-700 font-semibold mb-6"></p>
+
+      <h3 class="text-xl font-bold mb-2">Batting Scorecard</h3>
+      <div class="overflow-x-auto mb-6">
+        <table class="w-full bg-white border rounded-xl">
+          <thead class="bg-gray-200">
+            <tr>
+              <th class="p-2 text-left">Player</th>
+              <th class="p-2">Runs</th>
+              <th class="p-2">Balls</th>
+              <th class="p-2">4s</th>
+              <th class="p-2">6s</th>
+              <th class="p-2">SR</th>
+            </tr>
+          </thead>
+          <tbody id="batting-table"></tbody>
+        </table>
+      </div>
+
+      <h3 class="text-xl font-bold mb-2">Bowling Scorecard</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full bg-white border rounded-xl">
+          <thead class="bg-gray-200">
+            <tr>
+              <th class="p-2 text-left">Bowler</th>
+              <th class="p-2">Overs</th>
+              <th class="p-2">Runs</th>
+              <th class="p-2">Wickets</th>
+              <th class="p-2">Econ</th>
+            </tr>
+          </thead>
+          <tbody id="bowling-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const matchId = parseInt(urlParams.get('id'));
+
+    const matchesData = [
+      {
+        id: 1,
+        date: "2025-04-10",
+        teamA: "Warriors",
+        teamB: "Titans",
+        venue: "Sydney Oval",
+        result: "Warriors won by 25 runs",
+        teamA_score: "152/7 (20)",
+        teamB_score: "127/8 (20)",
+        batting: [
+          { team: "Warriors", player: "Ali Khan", runs: 45, balls: 38, fours: 4, sixes: 1 },
+          { team: "Titans", player: "John Smith", runs: 36, balls: 31, fours: 3, sixes: 2 }
+        ],
+        bowling: [
+          { team: "Titans", player: "Baquer Rashti", overs: 4, runs: 22, wickets: 3 },
+          { team: "Warriors", player: "Imran Khan", overs: 4, runs: 28, wickets: 2 }
+        ]
+      }
+    ];
+
+    const match = matchesData.find(m => m.id === matchId);
+    if (!match) {
+      document.querySelector("main").innerHTML = '<p class="text-red-600">Match not found.</p>';
+    } else {
+      document.getElementById("match-title").textContent = `${match.teamA} vs ${match.teamB}`;
+      document.getElementById("match-meta").textContent = `${match.date} | ${match.venue}`;
+      document.getElementById("match-score").textContent = `${match.teamA}: ${match.teamA_score} | ${match.teamB}: ${match.teamB_score}`;
+      document.getElementById("match-result").textContent = match.result;
+
+      const batTable = document.getElementById("batting-table");
+      match.batting.forEach(b => {
+        const sr = b.balls ? ((b.runs / b.balls) * 100).toFixed(1) : '0.0';
+        const row = `<tr>
+          <td class="p-2">${b.player}</td>
+          <td class="p-2 text-center">${b.runs}</td>
+          <td class="p-2 text-center">${b.balls}</td>
+          <td class="p-2 text-center">${b.fours}</td>
+          <td class="p-2 text-center">${b.sixes}</td>
+          <td class="p-2 text-center">${sr}</td>
+        </tr>`;
+        batTable.innerHTML += row;
+      });
+
+      const bowlTable = document.getElementById("bowling-table");
+      match.bowling.forEach(b => {
+        const econ = b.overs ? (b.runs / b.overs).toFixed(2) : '0.00';
+        const row = `<tr>
+          <td class="p-2">${b.player}</td>
+          <td class="p-2 text-center">${b.overs}</td>
+          <td class="p-2 text-center">${b.runs}</td>
+          <td class="p-2 text-center">${b.wickets}</td>
+          <td class="p-2 text-center">${econ}</td>
+        </tr>`;
+        bowlTable.innerHTML += row;
+      });
+    }
+  </script>
+</body>
+</html>

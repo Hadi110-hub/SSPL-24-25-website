@@ -1,0 +1,2726 @@
+[
+  {
+    "slug": "baquer-rashti",
+    "name": "Baquer Rashti",
+    "photo": "baquer-rashti.jpg",
+    "role": "Batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,"runs": 47,"not_out": true,"wickets": 0,"overs": 0,"runs_conceded": 0 },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "hassan-baig",
+    "name": "Hassan Baig",
+    "photo": "hassan-baig.jpg",
+    "role": "Batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "faheem-mohd",
+    "name": "Faheem mohd",
+    "photo": "faheem-mohd.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "mir-qayam-ali",
+    "name": "Mir Qayam Ali",
+    "photo": "mir-qayam-ali.jpg",
+    "role": "Bowler",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "mujtaba-abidi",
+    "name": "Mujtaba Abidi",
+    "photo": "mujtaba-abidi.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "raza-akhtari",
+    "name": "Raza Akhtari",
+    "photo": "raza-akhtari.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "asif-naqvi",
+    "name": "Asif Naqvi",
+    "photo": "asif-naqvi.jpg",
+    "role": "Batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "mujju",
+    "name": "Mujju",
+    "photo": "mujju.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "syed-murtuza",
+    "name": "Syed Murtuza",
+    "photo": "syed-murtuza.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "akbar-noorani",
+    "name": "Akbar noorani",
+    "photo": "akbar-noorani.jpg",
+    "role": "Bowler",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "jawad",
+    "name": "Jawad",
+    "photo": "jawad.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "arshad-mirza-w-c",
+    "name": "Arshad Mirza (W/C)",
+    "photo": "arshad-mirza-w-c.jpg",
+    "role": "Wicket keeper and batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "rehan-razvi",
+    "name": "Rehan Razvi",
+    "photo": "rehan-razvi.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "askari-agha",
+    "name": "Askari Agha",
+    "photo": "askari-agha.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "saif",
+    "name": "Saif",
+    "photo": "saif.jpg",
+    "role": "Bowler",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "hashim-raza",
+    "name": "Hashim Raza",
+    "photo": "hashim-raza.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "hasnain-moosvi",
+    "name": "Hasnain moosvi",
+    "photo": "hasnain-moosvi.jpg",
+    "role": "Batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "mohd-kasim",
+    "name": "Mohd Kasim",
+    "photo": "mohd-kasim.jpg",
+    "role": "Batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "mir-zain-ali",
+    "name": "Mir Zain Ali",
+    "photo": "mir-zain-ali.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "abid-baquri",
+    "name": "Abid Baquri",
+    "photo": "abid-baquri.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "iqbal",
+    "name": "Iqbal",
+    "photo": "iqbal.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "qayam-moosvi-w-c",
+    "name": "Qayam moosvi (W/C)",
+    "photo": "qayam-moosvi-w-c.jpg",
+    "role": "Wicket keeper and batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "shabber",
+    "name": "Shabber",
+    "photo": "shabber.jpg",
+    "role": "Bowler",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "musa-hadi",
+    "name": "Musa hadi",
+    "photo": "musa-hadi.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "tauseef",
+    "name": "Tauseef",
+    "photo": "tauseef.jpg",
+    "role": "All-rounder",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  },
+  {
+    "slug": "ali-biag",
+    "name": "Ali Biag",
+    "photo": "ali-biag.jpg",
+    "role": "Batsmen",
+    "team": "SSPL",
+    "matches": [
+      {
+        "match_id": 1,
+        "runs": 47,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 2,
+        "runs": 9,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 3,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 4,
+        "runs": 2,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 5,
+        "runs": 33,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 6,
+        "runs": 44,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 7,
+        "runs": 5,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 8,
+        "runs": 79,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 9,
+        "runs": 69,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 10,
+        "runs": 29,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 11,
+        "runs": 0,
+        "not_out": false,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      },
+      {
+        "match_id": 12,
+        "runs": 28,
+        "not_out": true,
+        "wickets": 0,
+        "overs": 0,
+        "runs_conceded": 0
+      }
+    ]
+  }
+]

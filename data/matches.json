@@ -1,0 +1,13 @@
+[
+    {
+      "match_id": 1,
+      "date": "2024-04-20",
+      "team1": "Nadeer",
+      "team2": "Askari",
+      "score1": { "runs": 157, "wickets": 8, "overs": 30 },
+      "score2": { "runs": 142, "wickets": 9, "overs": 30 },
+      "summary": "Sydney Stars won by 15 runs",
+      "mom": "Baquer Rashti"
+    }
+  ]
+  
