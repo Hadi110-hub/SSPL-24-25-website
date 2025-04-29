@@ -6,25 +6,21 @@
   <title>SSPL Players</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <header class="bg-blue-700 text-white shadow p-4 mb-6">
-    <div class="container mx-auto flex justify-between items-center">
-      <div class="flex items-center space-x-2">
-        <img src="images/SSPLlogo.jpg" alt="SSPL Logo" class="w-10 h-10 object-contain rounded-full">
-        <h1 class="text-2xl font-bold">Sydney Super Premier League</h1>
-      </div>
-      <nav class="space-x-4">
-        <a href="index.html" class="text-white hover:underline">Home</a>
-        <a href="players.html" class="text-white hover:underline">Players</a>
-        <a href="matches.html" class="text-white hover:underline">Matches</a>
-        <a href="stats.html" class="text-white hover:underline">Stats</a>
-        <a href="admin.html" class="text-white hover:underline">Admin</a>
-      </nav>
-    </div>
-  </header>
+<header class="bg-blue-800 text-white p-4 shadow mb-8">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    <h1 class="text-2xl font-bold mb-2 md:mb-0">SSPL 2024-25</h1>
+    <nav class="space-x-4 text-center md:text-right">
+      <a href="index.html" class="hover:underline block md:inline">Home</a>
+      <a href="players.html" class="hover:underline block md:inline font-semibold">Players</a>
+      <a href="matches.html" class="hover:underline block md:inline">Matches</a>
+      <a href="stats.html" class="hover:underline block md:inline">Stats</a>
+    </nav>
+  </div>
+</header>
+
   
 
-  <main class="container mx-auto px-4">
+  <main class="flex-colmd:flex-row">
     <h2 class="text-2xl font-bold mb-6 text-center">Players of SSPL 2024-25</h2>
     <div id="players-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Player cards go here -->
@@ -39,7 +35,8 @@
 
         players.forEach(player => {
           const card = document.createElement('div');
-          card.className = "bg-white p-4 rounded-xl shadow text-center";
+          card.className = 'bg-white p-6 rounded-2xl shadow hover:shadow-xl transition flex flex-col justify-between';
+
 
           card.innerHTML = `
             <img src="images/${player.photo}" alt="${player.name}" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
