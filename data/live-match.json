@@ -1,0 +1,46 @@
+let matchData = {
+    teams: ["Team A", "Team B"],
+    currentInnings: 1,
+    innings: [
+      { runs: 0, wickets: 0, overs: [], batsmen: [], bowlers: [] },
+      { runs: 0, wickets: 0, overs: [], batsmen: [], bowlers: [] }
+    ],
+    currentOver: [],
+    currentBatsmen: [],
+    currentBowler: null,
+    totalBalls: 0,
+  };
+  
+  function updateScoreDisplay() {
+    document.getElementById('score').innerText = 
+      `${matchData.innings[matchData.currentInnings - 1].runs}/${matchData.innings[matchData.currentInnings - 1].wickets}`;
+    document.getElementById('balls').innerText = `${Math.floor(matchData.totalBalls / 6)}.${matchData.totalBalls % 6}`;
+  }
+  
+  function addRun(run) {
+    matchData.innings[matchData.currentInnings - 1].runs += run;
+    matchData.totalBalls += 1;
+    updateScoreDisplay();
+  }
+  
+  function addWicket() {
+    matchData.innings[matchData.currentInnings - 1].wickets += 1;
+    matchData.totalBalls += 1;
+    updateScoreDisplay();
+  }
+  
+  function nextInnings() {
+    matchData.currentInnings = 2;
+    matchData.totalBalls = 0;
+    updateScoreDisplay();
+  }
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("add-run").onclick = () => addRun(1);
+    document.getElementById("add-four").onclick = () => addRun(4);
+    document.getElementById("add-six").onclick = () => addRun(6);
+    document.getElementById("add-wicket").onclick = () => addWicket();
+    document.getElementById("next-innings").onclick = () => nextInnings();
+    updateScoreDisplay();
+  });
+  

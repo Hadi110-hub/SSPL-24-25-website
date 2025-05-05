@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSPL Live Match</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .run-btn:hover { transform: scale(1.1); transition: 0.2s; }
+    .out-btn { background-color: #f87171; }
+  </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <header class="bg-blue-900 text-white p-4 text-center text-2xl font-bold shadow">
+    SSPL 2024-25 Live Match Scoring
+  </header>
+
+  <main class="p-4 max-w-4xl mx-auto space-y-6">
+
+    <section class="bg-white p-4 rounded shadow">
+      <h2 class="text-xl font-semibold mb-2">Select Players</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm font-medium">Striker</label>
+          <select id="striker" class="w-full border rounded p-2"></select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium">Non-Striker</label>
+          <select id="nonStriker" class="w-full border rounded p-2"></select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium">Bowler</label>
+          <select id="bowler" class="w-full border rounded p-2"></select>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white p-4 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Record Delivery</h2>
+      <div class="grid grid-cols-4 gap-2 text-center">
+        <button class="run-btn bg-green-500 text-white py-2 rounded" onclick="scoreRun(0)">0</button>
+        <button class="run-btn bg-green-500 text-white py-2 rounded" onclick="scoreRun(1)">1</button>
+        <button class="run-btn bg-green-500 text-white py-2 rounded" onclick="scoreRun(2)">2</button>
+        <button class="run-btn bg-green-500 text-white py-2 rounded" onclick="scoreRun(3)">3</button>
+        <button class="run-btn bg-green-500 text-white py-2 rounded" onclick="scoreRun(4)">4</button>
+        <button class="run-btn bg-green-500 text-white py-2 rounded" onclick="scoreRun(6)">6</button>
+        <button class="run-btn bg-yellow-500 text-white py-2 rounded" onclick="scoreRun('wd')">Wide</button>
+        <button class="run-btn bg-yellow-500 text-white py-2 rounded" onclick="scoreRun('nb')">No Ball</button>
+        <button class="run-btn out-btn text-white py-2 rounded col-span-2" onclick="batsmanOut()">Wicket</button>
+      </div>
+    </section>
+
+    <section class="bg-white p-4 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Scoreboard</h2>
+      <div id="scoreSummary" class="space-y-2 text-lg"></div>
+    </section>
+
+    <div class="text-center my-6">
+      <button onclick="finishInnings()" class="bg-red-600 text-white px-6 py-2 rounded shadow hover:bg-red-700">
+        Finish Innings & Download JSON
+      </button>
+    </div>
+
+  </main>
+
+  <footer class="bg-blue-900 text-white text-sm text-center py-4 mt-6">
+    &copy; 2025 SSPL | Live Scoring Engine
+  </footer>
+
+  <script>
+    const players = ["Baquer Rashti", "Hassan Baig", "Faheem mohd", "Mir Qayam Ali"];
+    let striker = "", nonStriker = "", bowler = "";
+    let totalRuns = 0, wickets = 0, balls = 0;
+    let battingStats = [], bowlerStats = [];
+
+    function populateSelect(id) {
+      const select = document.getElementById(id);
+      players.forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        select.appendChild(opt);
+      });
+    }
+
+    populateSelect("striker");
+    populateSelect("nonStriker");
+    populateSelect("bowler");
+
+    function updateScoreBoard() {
+      document.getElementById("scoreSummary").innerHTML = `
+        <p><strong>Total Runs:</strong> ${totalRuns}</p>
+        <p><strong>Wickets:</strong> ${wickets}</p>
+        <p><strong>Overs:</strong> ${Math.floor(balls / 6)}.${balls % 6}</p>
+        <p><strong>Striker:</strong> ${striker}</p>
+        <p><strong>Non-Striker:</strong> ${nonStriker}</p>
+        <p><strong>Bowler:</strong> ${bowler}</p>
+      `;
+    }
+
+    function scoreRun(value) {
+      striker = document.getElementById("striker").value;
+      nonStriker = document.getElementById("nonStriker").value;
+      bowler = document.getElementById("bowler").value;
+
+      if (!["wd", "nb"].includes(value)) balls++;
+      if (value === "wd" || value === "nb") totalRuns++;
+      else totalRuns += Number(value);
+
+      const batsman = battingStats.find(p => p.name === striker) || battingStats.push({ name: striker, runs: 0, balls: 0, out: false }) && battingStats.find(p => p.name === striker);
+      if (!isNaN(value)) {
+        batsman.runs += Number(value);
+        batsman.balls++;
+      }
+
+      if (!isNaN(value) && value % 2 !== 0) {
+        [striker, nonStriker] = [nonStriker, striker];
+        document.getElementById("striker").value = striker;
+        document.getElementById("nonStriker").value = nonStriker;
+      }
+
+      if (balls % 6 === 0 && balls !== 0) {
+        alert("End of Over");
+      }
+      updateScoreBoard();
+    }
+
+    function batsmanOut() {
+      wickets++;
+      const batsman = battingStats.find(p => p.name === striker);
+      if (batsman) batsman.out = true;
+      alert(`${striker} is OUT! Replace striker.`);
+      striker = prompt("Enter new batsman name:");
+      document.getElementById("striker").value = striker;
+      updateScoreBoard();
+    }
+
+    function finishInnings() {
+      const matchSummary = {
+        match_id: 13,
+        date: new Date().toISOString().split('T')[0],
+        team: "SSPL XI",
+        opponent: "Kings XI",
+        batsmen: battingStats.map(b => ({
+          name: b.name,
+          runs: b.runs,
+          balls: b.balls,
+          out: b.out,
+          average: (b.out ? (b.runs / 1) : b.runs).toFixed(2)
+        })),
+        bowlers: bowlerStats,
+        total_runs: totalRuns,
+        wickets: wickets,
+        overs: `${Math.floor(balls / 6)}.${balls % 6}`
+      };
+
+      const blob = new Blob([JSON.stringify(matchSummary, null, 2)], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'single_innings_summary.json';
+      link.click();
+    }
+
+    updateScoreBoard();
+  </script>
+</body>
+</html>

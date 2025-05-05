@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Match Summary | SSPL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <div class="max-w-3xl mx-auto bg-white shadow p-6 my-6 rounded-xl" id="summary">
+    <div class="flex justify-between items-center mb-6">
+      <img src="images/SSPLlogo.jpg" class="h-16" alt="SSPL Logo">
+      <h1 class="text-2xl font-bold text-blue-800">Match Summary</h1>
+    </div>
+    <div id="matchDetails" class="mb-4 text-sm text-gray-600"></div>
+
+    <h2 class="text-xl font-semibold mt-4 mb-2">Batting</h2>
+    <table class="w-full mb-4 text-left border">
+      <thead class="bg-blue-100 text-blue-800">
+        <tr>
+          <th class="p-2">Player</th>
+          <th class="p-2">Runs</th>
+          <th class="p-2">Balls</th>
+          <th class="p-2">Status</th>
+        </tr>
+      </thead>
+      <tbody id="battingTable"></tbody>
+    </table>
+
+    <h2 class="text-xl font-semibold mt-4 mb-2">Bowling</h2>
+    <table class="w-full text-left border">
+      <thead class="bg-green-100 text-green-800">
+        <tr>
+          <th class="p-2">Bowler</th>
+          <th class="p-2">Overs</th>
+          <th class="p-2">Runs</th>
+          <th class="p-2">Wickets</th>
+        </tr>
+      </thead>
+      <tbody id="bowlingTable"></tbody>
+    </table>
+
+    <div class="mt-4 text-right">
+      <button onclick="downloadPDF()" class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full">
+        Download PDF
+      </button>
+    </div>
+  </div>
+
+  <script>
+    async function loadSummary() {
+      const res = await fetch('data/single_innings_summary.json');
+      const data = await res.json();
+
+      const matchInfo = `
+        <p><strong>Match #${data.match_id}</strong> | <strong>Date:</strong> ${data.date}</p>
+        <p><strong>${data.team}</strong> vs <strong>${data.opponent}</strong></p>
+        <p><strong>Total:</strong> ${data.total_runs}/${data.wickets} in ${data.overs} overs</p>
+      `;
+      document.getElementById("matchDetails").innerHTML = matchInfo;
+
+      const battingHTML = data.batsmen.map(b =>
+        `<tr class="border-b">
+          <td class="p-2">${b.name}</td>
+          <td class="p-2">${b.runs}</td>
+          <td class="p-2">${b.balls}</td>
+          <td class="p-2">${b.out ? 'Out' : 'Not Out'} (${(b.runs / (b.out ? 1 : 0.1)).toFixed(1)})</td>
+
+        </tr>`).join('');
+      document.getElementById("battingTable").innerHTML = battingHTML;
+
+      const bowlingHTML = data.bowlers.map(b =>
+        `<tr class="border-b">
+          <td class="p-2">${b.name}</td>
+          <td class="p-2">${b.overs}</td>
+          <td class="p-2">${b.runs_conceded}</td>
+          <td class="p-2">${b.wickets}</td>
+        </tr>`).join('');
+      document.getElementById("bowlingTable").innerHTML = bowlingHTML;
+    }
+
+    function downloadPDF() {
+      import('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js').then(() => {
+        html2canvas(document.getElementById("summary")).then(canvas => {
+          const imgData = canvas.toDataURL('image/png');
+          const pdf = new jspdf.jsPDF();
+          const width = pdf.internal.pageSize.getWidth();
+          const height = canvas.height * width / canvas.width;
+          pdf.addImage(imgData, 'PNG', 0, 0, width, height);
+          pdf.save("SSPL-match-summary.pdf");
+        });
+      });
+    }
+
+    loadSummary();
+  </script>
+
+</body>
+</html>

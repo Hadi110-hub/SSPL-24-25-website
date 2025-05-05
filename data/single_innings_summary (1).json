@@ -1,0 +1,18 @@
+{
+  "match_id": 13,
+  "date": "2025-04-29",
+  "team": "SSPL XI",
+  "opponent": "Kings XI",
+  "batsmen": [
+    { "name": "Baquer Rashti", "runs": 47, "balls": 30, "out": true },
+    { "name": "Hassan Baig", "runs": 33, "balls": 25, "out": true },
+    { "name": "Faheem Mohd", "runs": 28, "balls": 15, "out": false }
+  ],
+  "bowlers": [
+    { "name": "Shabber", "overs": 5, "runs_conceded": 30, "wickets": 2 },
+    { "name": "Akbar Noorani", "overs": 3, "runs_conceded": 21, "wickets": 1 }
+  ],
+  "total_runs": 120,
+  "wickets": 2,
+  "overs": 15
+}
